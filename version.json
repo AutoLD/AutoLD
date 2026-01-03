@@ -1,6 +1,6 @@
-﻿{
+{
     "download_url":  "https://AutoLD.github.io/AutoLD/AutoLD.zip",
     "release_notes":  "v2.4 Updates:\\n1. Refactored schedule logic - no longer auto-closes Dawei\\n2. On startup: restore only if Dawei closed, prompt if Dawei running\\n3. On scheduled time: initialize only if Dawei is running",
     "required":  false,
-    "latest_version":  "2.4"
+    "latest_version":  "2026.0103.2138"
 }
