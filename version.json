@@ -1,25 +1,25 @@
 {
-    "latest_version": "2026.0115.2022",
-    "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0115/AutoLD.zip",
-    "release_notes": "v2026.0115.2022 更新內容:\n1. 更新大尾Pro 至 v1.0.28.16 (支援遊戲 v1.8.41)\n2. 優化關機/重啟清理邏輯：增加模擬器關閉確認機制\n3. 支援多元件自動更新 (APK、大尾Pro)\n4. 強化大尾版本偵測與強制更新邏輯\n5. 修正 APK 即時路徑顯示",
+    "latest_version": "2026.0121.1543",
+    "download_url": "https://github.com/aron0803/autodw/releases/download/v2026.0121/AutoLD.zip",
+    "release_notes": "v2026.0121.1543 更新內容:\n1. 更新大尾Pro 至 v1.0.28.20 (支援遊戲 v1.8.41)",
     "required": false,
     "components": {
         "autodw": {
-            "version": "2026.0115.2022",
+            "version": "2026.0121.1543",
             "filename": "AutoLD.zip",
-            "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0115/AutoLD.zip",
+            "url": "https://github.com/aron0803/autodw/releases/download/v2026.0121/AutoLD.zip",
             "description": "主程式更新"
         },
         "apk": {
             "version": "1.8.41",
             "filename": "M_64_1.8.41.xapk",
-            "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0114/M_64_1.8.41.xapk",
+            "url": "https://github.com/aron0803/autodw/releases/download/v2026.0114/M_64_1.8.41.xapk",
             "description": "天堂M APK"
         },
         "dawei": {
-            "version": "1.0.28.16",
-            "filename": "DaweiPro_v1.0.28.16.zip",
-            "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0115/DaweiPro_v1.0.28.16.zip",
+            "version": "1.0.28.20",
+            "filename": "DaweiPro_v1.0.28.20.zip",
+            "url": "https://github.com/aron0803/autodw/releases/download/v2026.0121/DaweiPro_v1.0.28.20.zip",
             "description": "大尾Pro 程式"
         }
     }
