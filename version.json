@@ -1,26 +1,26 @@
 {
-    "latest_version": "2026.0204.1354",
-    "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0204/AutoLD.zip",
-    "release_notes": "v2026.0204.1354 更新內容:\n1. 更新大尾Pro 至 v1.0.29.7 (支援遊戲 v1.8.42)\n2. 更新天堂M APK 至 v1.8.42",
-    "required": false,
-    "components": {
-        "autodw": {
-            "version": "2026.0204.1354",
-            "filename": "AutoLD.zip",
-            "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0204/AutoLD.zip",
-            "description": "主程式更新"
-        },
-        "apk": {
-            "version": "1.8.42",
-            "filename": "天堂M_64_1.8.42.xapk",
-            "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0128/天堂M_64_1.8.42.xapk",
-            "description": "天堂M APK"
-        },
-        "dawei": {
-            "version": "1.0.29.7",
-            "filename": "DaweiPro_v1.0.29.7.zip",
-            "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0204/DaweiPro_v1.0.29.7.zip",
-            "description": "大尾Pro 程式"
-        }
+  "latest_version": "2026.0610.2110",
+  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0610/AutoLD.zip",
+  "release_notes": "v2026.0610.2110 更新內容:\n1. 修復 subprocess 編碼錯誤\n2. 新增定時清理 sdcard.vmdk 功能\n3. 關機設定 UI 改為左右並排佈局\n4. 修正發佈流程",
+  "required": false,
+  "components": {
+    "autodw": {
+      "version": "2026.0610.2110",
+      "filename": "AutoLD.zip",
+      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0610/AutoLD.zip",
+      "description": "主程式更新"
+    },
+    "apk": {
+      "version": "1.8.42",
+      "filename": "天堂M_64_1.8.42.xapk",
+      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0128/天堂M_64_1.8.42.xapk",
+      "description": "天堂M APK"
+    },
+    "dawei": {
+      "version": "1.0.29.7",
+      "filename": "DaweiPro_v1.0.29.7.zip",
+      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0204/DaweiPro_v1.0.29.7.zip",
+      "description": "大尾Pro 程式"
     }
+  }
 }
