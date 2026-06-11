@@ -1,119 +1,260 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AutoLD - 專業級 LDPlayer 整合自動化控制工具</title>
-    <meta name="description" content="AutoLD 提供 LDPlayer 模擬器批次控制、大尾監控、天堂M自動化及系統備份功能。專業、穩定、高效。">
+    <title>AutoLD - 專業級 LDPlayer 雷電模擬器與天堂M自動化整合工具</title>
+    <meta name="description" content="AutoLD 提供雷電模擬器批次控制、歐林日記自動鎖定紅裝、天堂M多角色排程與批量操作、自動關機省電及設定備份。專業、高效、安全。">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-
 <body>
+    <!-- Background Gradient Blobs -->
     <div class="bg-blobs">
         <div class="blob blob-1"></div>
         <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
     </div>
 
-    <nav>
-        <div class="logo">AutoLD</div>
-        <ul class="nav-links">
-            <li><a href="#features">功能描述</a></li>
-            <li><a href="#legal">法律與退費</a></li>
-            <li><a href="#contact">作者聯繫</a></li>
-            <li><a href="AutoLD.zip" class="download-link"><i class="fas fa-download"></i> 下載軟體</a></li>
+    <!-- Navigation Bar -->
+    <nav id="main-nav">
+        <div class="logo" onclick="window.scrollTo({top:0, behavior:'smooth'})">
+            Auto<span>LD</span>
+        </div>
+        <button class="nav-toggle" id="nav-toggle-btn" aria-label="Toggle Navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links" id="nav-links-menu">
+            <li><a href="#features">功能介紹</a></li>
+            <li><a href="#demos">影片演示</a></li>
+            <li><a href="#guide">設定指南</a></li>
+            <li><a href="#legal">免責聲明</a></li>
+            <li><a href="AutoLD.zip" class="btn btn-primary download-link" id="nav-download-btn"><i class="fas fa-download"></i> 立即下載</a></li>
         </ul>
-        <a href="#contact" class="btn btn-primary" style="padding: 0.6rem 1.5rem;">立即諮詢</a>
     </nav>
 
-    <header class="hero">
-        <div class="hero-content animate">
-            <h1>釋放雙手<br><span style="color: var(--primary);">自動化</span>您的遊戲體驗</h1>
-            <p>AutoLD 是一款專為 LDPlayer 打造的整合式控制工具，集成了模擬器批次管理、自動化備份、大尾狀態監控以及天堂M專屬自動化功能。</p>
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-tag">
+                <i class="fas fa-bolt"></i> 最新發布 v1.0.0 正式版
+            </div>
+            <h1>釋放繁瑣重複操作<br><span class="gradient-text">自動化您的遊戲體驗</span></h1>
+            <p>AutoLD 是一款專為 LDPlayer 雷電模擬器量身打造的整合控制與輔助工具。完美整合模擬器批次管理、歐林日記自動抽裝、天堂M多角色副本排程及系統自動關機，讓模擬器管理更輕鬆、更有效率。</p>
             <div class="hero-btns">
-                <a href="AutoLD.zip" class="btn btn-primary"><i class="fas fa-download"></i> 立即下載 <span
-                        id="v-text"></span></a>
-                <a href="#features" class="btn btn-secondary"
-                    style="margin-left: 10px; border: 1px solid var(--glass-border); background: var(--glass);">探索功能</a>
+                <a href="AutoLD.zip" class="btn btn-primary download-link" id="hero-download-btn">
+                    <i class="fas fa-download"></i> 立即下載 <span id="v-text"></span>
+                </a>
+                <a href="#demos" class="btn btn-secondary" id="hero-demo-btn">
+                    <i class="fas fa-play"></i> 觀看操作演示
+                </a>
             </div>
         </div>
-        <div class="hero-image animate" style="animation-delay: 0.2s;">
-            <img src="assets/hero.png" alt="AutoLD Dashboard">
+        <div class="hero-image">
+            <div class="hero-image-glow"></div>
+            <div class="hero-mockup">
+                <div class="hero-mockup-header">
+                    <div class="dot dot-red"></div>
+                    <div class="dot dot-yellow"></div>
+                    <div class="dot dot-green"></div>
+                    <span class="mockup-title">AutoLD_Controller.exe</span>
+                </div>
+                <div class="hero-mockup-screen">
+                    <div class="mockup-inner-content">
+                        <i class="fas fa-cog mockup-icon"></i>
+                        <h2 style="font-size: 1.5rem; margin-bottom: 0.5rem; color: #fff;">AutoLD 系統運作中</h2>
+                        <div class="mockup-status">
+                            <span class="mockup-pulse"></span>
+                            雷電模擬器批次監控與排程已就緒
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
 
-    <section id="features">
-        <h2 class="animate">核心功能介紹</h2>
+    <!-- Features Section -->
+    <section id="features" class="reveal">
+        <div class="section-header">
+            <span class="section-tag">Powerful Features</span>
+            <h2>五大核心強大功能</h2>
+        </div>
         <div class="features-grid">
-            <div class="feature-card animate" style="animation-delay: 0.1s;">
-                <i class="fas fa-server"></i>
-                <h3>模擬器控制</h3>
-                <p>支援一鍵批次啟動、關閉模擬器，並提供 APK 快速安裝功能，大幅提升多開管理效率。</p>
+            <!-- Feature 1 -->
+            <div class="feature-card">
+                <div class="feature-icon-wrapper">
+                    <i class="fas fa-file-shield"></i>
+                </div>
+                <h3>換角設定備份還原</h3>
+                <p>支援快速的角色切換設定備份與還原。包含跨角色切換、打突襲副本、排程打假日活動副本等排程規劃。</p>
             </div>
-            <div class="feature-card animate" style="animation-delay: 0.2s;">
-                <i class="fas fa-database"></i>
-                <h3>自動化備份</h3>
-                <p>定時自動備份模擬器資料，確保您的遊戲進度與設定安全無虞，有效防止資料損毀。</p>
+            <!-- Feature 2 -->
+            <div class="feature-card">
+                <div class="feature-icon-wrapper">
+                    <i class="fas fa-display"></i>
+                </div>
+                <h3>批次開關模擬器/天堂M/更新apk/模擬器設定確認</h3>
+                <p>支援一鍵批次開啟與關閉雷電模擬器、天堂M遊戲，自動批量更新 apk 檔案，並自動確認模擬器設定符合標準。</p>
             </div>
-            <div class="feature-card animate" style="animation-delay: 0.3s;">
-                <i class="fas fa-chart-line"></i>
-                <h3>大尾監控</h3>
-                <p>即時監控大尾 Pro 運作狀態，支援自動刷新資訊與異常狀態自動篩選功能。</p>
+            <!-- Feature 3 -->
+            <div class="feature-card">
+                <div class="feature-icon-wrapper">
+                    <i class="fas fa-cubes"></i>
+                </div>
+                <h3>天堂M批量操作</h3>
+                <p>提供多開視窗批量指令，支援一鍵開啟背包、批量角色切換等快捷日常手動點擊操作。</p>
             </div>
-            <div class="feature-card animate" style="animation-delay: 0.4s;">
-                <i class="fa-solid fa-gamepad"></i>
-                <h3>天堂M易簡操作</h3>
-                <p>一鍵自動切換選擇角色、整理與關閉背包，並支援快速切換歐林痕跡副本。</p>
+            <!-- Feature 4 -->
+            <div class="feature-card">
+                <div class="feature-icon-wrapper">
+                    <i class="fas fa-power-off"></i>
+                </div>
+                <h3>系統定時關機</h3>
+                <p>支援排程定時自動關機。在遊戲伺服器停機維修時，自動關閉電腦主機，以節省电力並保護硬體健康。</p>
             </div>
-            <div class="feature-card animate" style="animation-delay: 0.5s;">
-                <i class="fas fa-power-off"></i>
-                <h3>系統控制</h3>
-                <p>提供開機自動啟動、定時重啟系統，以及網路斷線自動安全關機等實用功能。</p>
-            </div>
-            <div class="feature-card animate" style="animation-delay: 0.6s;">
-                <i class="fas fa-shield-halved"></i>
-                <h3>穩定與高效</h3>
-                <p>優化的記憶體管理與錯誤處理機制，確保軟體在長時間運作下依然穩定如初。</p>
+            <!-- Feature 5 -->
+            <div class="feature-card">
+                <div class="feature-icon-wrapper">
+                    <i class="fas fa-shield-halved"></i>
+                </div>
+                <h3>歐林日記鎖定紅裝</h3>
+                <p>全自動進行歐林日記抽裝與刷新，智慧辨識畫面，一旦偵測出現紅色裝備時便自動執行鎖定。</p>
             </div>
         </div>
     </section>
 
-    <section id="legal">
-        <h2 class="animate">法律與退費條款</h2>
-        <div class="content-box animate">
-            <h3>法律宣告 (Legal Notice)</h3>
-            <p>1. 本軟體僅供個人學術研究與自動化操作輔助使用，請勿用於任何違反遊戲服務條款或當地法律之行為。</p>
-            <p>2. 使用者應自行承擔使用自動化工具可能帶來的風險（如遊戲帳號封鎖等），開發者不承擔任何損失責任。</p>
-            <p>3. 本軟體所有商標及圖標權屬於其原始擁有者（如 LDPlayer, NCSOFT 等）。</p>
+    <!-- Video Demos Section -->
+    <section id="demos" class="reveal" style="background: rgba(10, 11, 20, 0.4); border-top: 1px solid var(--glass-border); border-bottom: 1px solid var(--glass-border);">
+        <div class="section-header">
+            <span class="section-tag">Video Showcases</span>
+            <h2>實機操作流程演示</h2>
         </div>
-
-        <div class="content-box animate">
-            <h3>退費原則 (Refund Policy)</h3>
-            <p>1. 本軟體為數位內容產品，且提供完整試用版本供使用者確認功能是否符合需求。</p>
-            <p>2. 基於已提供試用之原則，產品一經授權啟用後，恕不接受任何理由之退費申請。</p>
-            <p>3. 請使用者於購買前務必充分利用試用期確認軟體相容性與功能完整性。</p>
-        </div>
-    </section>
-
-    <section id="contact">
-        <h2 class="animate">聯繫作者</h2>
-        <div class="content-box animate" style="text-align: center;">
-            <p>如果您有任何問題、建議或商務合作，請點擊下方按鈕或透過以下方式聯繫：</p>
-            <div style="margin: 2rem 0;">
-                <p><i class="fas fa-user"></i> 作者: nfx9419</p>
-                <p><i class="fas fa-envelope"></i> Email: nfx9419@gmail.com</p>
+        <div class="videos-container">
+            <!-- Video 1 -->
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube-nocookie.com/embed/LVmTGIAWCrE" title="AutoLD 換角流程演示" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="video-title">
+                    <i class="fab fa-youtube"></i> 天堂M 自動換角流程演示
+                </div>
+                <p class="video-desc">演示了 AutoLD 自動切換角色、排程點擊並進入各個任務副本與自動化交接的工作流程，整體銜接流暢。</p>
             </div>
-            <a href="mailto:nfx9419@gmail.com" class="btn btn-primary">傳送郵件</a>
+            <!-- Video 2 -->
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube-nocookie.com/embed/x4y1CF_7Tqo" title="定時換角與排程流程演示" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="video-title">
+                    <i class="fab fa-youtube"></i> 定時換角與排程流程演示
+                </div>
+                <p class="video-desc">展示如何透過定時管理器觸發批次模擬器動作，並在指定時間或條件下排程換角，實現高效率的多帳號託管運作。</p>
+            </div>
         </div>
     </section>
 
+    <!-- Guide Section -->
+    <section id="guide" class="reveal">
+        <div class="section-header">
+            <span class="section-tag">Quick Start Guide</span>
+            <h2>新手快速設定指南</h2>
+        </div>
+        <div class="guide-container">
+            <div class="guide-steps">
+                <div class="guide-step-card">
+                    <div class="step-number">1</div>
+                    <div class="step-text">
+                        <h3>下載與解壓縮</h3>
+                        <p>下載 <code>AutoLD.zip</code> 檔案並解壓縮至非系統碟，建議使用系統管理員權限運行主程式。</p>
+                    </div>
+                </div>
+                <div class="guide-step-card" style="border-color: var(--primary);">
+                    <div class="step-number" style="background: linear-gradient(135deg, var(--accent) 0%, var(--primary) 100%);">2</div>
+                    <div class="step-text">
+                        <h3 style="color: var(--primary-light);"><i class="fas fa-triangle-exclamation"></i> 最重要！設定核心路徑</h3>
+                        <p>啟動軟體後，首要任務是配置以下三個核心路徑（可對照右側介面圖示）：</p>
+                        <ul style="list-style: none; margin-top: 0.6rem; padding-left: 0.5rem; color: var(--text-muted); font-size: 0.9rem; line-height: 1.8;">
+                            <li><i class="fas fa-folder-open" style="color: var(--secondary-light); margin-right: 0.5rem;"></i> <strong>雷電資料夾</strong>：雷電模擬器的安裝目錄。</li>
+                            <li><i class="fas fa-folder-open" style="color: var(--secondary-light); margin-right: 0.5rem;"></i> <strong>大尾資料夾</strong>：天堂M大尾監控的對應目錄。</li>
+                            <li><i class="fas fa-file-code" style="color: var(--secondary-light); margin-right: 0.5rem;"></i> <strong>xapk路徑</strong>：天堂M遊戲安裝更新包（xapk）的路徑。</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="guide-step-card">
+                    <div class="step-number">3</div>
+                    <div class="step-text">
+                        <h3>確認模擬器解析度</h3>
+                        <p>開啟雷電模擬器設定，將解析度與 DPI 調整為下方推薦規格，以確保滑鼠座標定位與偵測完全精確。</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="guide-settings">
+                <div class="settings-header">
+                    <i class="fas fa-image"></i>
+                    <h3>軟體路徑設定界面</h3>
+                </div>
+                <div style="margin-bottom: 1.5rem; text-align: center;">
+                    <img src="setting.PNG" alt="AutoLD 設定路徑截圖" style="width: 100%; max-width: 400px; border-radius: 12px; border: 1px solid var(--glass-border); box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+                </div>
+                <div class="settings-header" style="margin-top: 2rem; border-top: 1px solid var(--glass-border); padding-top: 1.2rem; margin-bottom: 1rem;">
+                    <i class="fas fa-sliders"></i>
+                    <h3>推薦模擬器設定</h3>
+                </div>
+                <ul class="settings-list">
+                    <li class="settings-item">
+                        <span class="settings-label">模擬器解析度</span>
+                        <span class="settings-val">800 x 450</span>
+                    </li>
+                    <li class="settings-item">
+                        <span class="settings-label">模擬器 DPI</span>
+                        <span class="settings-val">160 DPI</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Legal Section -->
+    <section id="legal" class="reveal" style="background: rgba(10, 11, 20, 0.4); border-top: 1px solid var(--glass-border);">
+        <div class="legal-box">
+            <div class="legal-block" style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <h3><i class="fas fa-balance-scale"></i> 法律與免責聲明</h3>
+                <p style="text-align: left; margin-top: 1rem;">AutoLD 是一款專門為雷電模擬器設計的管理與輔助操作工具。使用者在使用本軟體進行任何遊戲自動化操作時，應自行承擔與遵守該遊戲服務合約之規範。本軟體僅供模擬器環境管理與技術交流，若因不當操作導致任何遊戲帳號受損或被懲處，本軟體與作者不承擔任何法律與賠償責任。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer & Contact Section -->
     <footer>
-        <p>&copy; 2025 AutoLD Team. All rights reserved.</p>
-        <p>Built with ❤️ for gamers.</p>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo">Auto<span>LD</span></div>
+                <p>致力於為模擬器玩家提供最為高效、直觀且專業的批次自動化控制解決方案，讓手遊管理更便利。</p>
+            </div>
+            <div class="footer-links-group">
+                <div class="footer-links">
+                    <h4>快速連結</h4>
+                    <ul>
+                        <li><a href="#home">回到頂部</a></li>
+                        <li><a href="#features">核心功能</a></li>
+                        <li><a href="#demos">影片展示</a></li>
+                        <li><a href="#guide">設定指南</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 AutoLD. All rights reserved.</p>
+            <p>Designed for LDPlayer & Lineage M Automation</p>
+        </div>
     </footer>
 
-    <script src="main.js"></script>
-</body>
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to Top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
 
+    <script src="app.js"></script>
+</body>
 </html>

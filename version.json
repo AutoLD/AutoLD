@@ -1,11 +1,11 @@
 {
-  "latest_version": "2026.0611.1320",
+  "latest_version": "2026.0611.1508",
   "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0611/AutoLD.zip",
-  "release_notes": "v2026.0611.1320 更新內容:\n1. Ragic 數據檢視器分頁簡化，僅保留裝置使用記錄\n2. 設定檔搬移至 %APPDATA%/AutoLD/config.ini 實現跨目錄共享並自動清理舊檔\n3. 還原大尾控制器每日初始化與全部保存之滾動及點擊座標邏輯",
+  "release_notes": "v2026.0611.1508 更新內容:\n1. 隱藏設定介面中的雷電截圖資料夾路徑設定，改為當 LDPlayer 路徑變更時，自動從模擬器內部設定檔解析並套用共享圖片路徑。",
   "required": false,
   "components": {
     "autodw": {
-      "version": "2026.0611.1320",
+      "version": "2026.0611.1508",
       "filename": "AutoLD.zip",
       "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0611/AutoLD.zip",
       "description": "主程式更新"
