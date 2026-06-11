@@ -1,13 +1,13 @@
 {
-  "latest_version": "2026.0610.2110",
-  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0610/AutoLD.zip",
-  "release_notes": "v2026.0610.2110 更新內容:\n1. 修復 subprocess 編碼錯誤\n2. 新增定時清理 sdcard.vmdk 功能\n3. 關機設定 UI 改為左右並排佈局\n4. 修正發佈流程",
+  "latest_version": "2026.0611.1025",
+  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0611/AutoLD.zip",
+  "release_notes": "v2026.0611.1025 更新內容:\n1. 程式架構解耦以利後續維護\n2. 修正解耦後 UI 字型大小跑版問題",
   "required": false,
   "components": {
     "autodw": {
-      "version": "2026.0610.2110",
+      "version": "2026.0611.1025",
       "filename": "AutoLD.zip",
-      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0610/AutoLD.zip",
+      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0611/AutoLD.zip",
       "description": "主程式更新"
     },
     "apk": {
