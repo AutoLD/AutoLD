@@ -1,11 +1,11 @@
 {
-  "latest_version": "2026.0611.1025",
+  "latest_version": "2026.0611.1035",
   "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0611/AutoLD.zip",
-  "release_notes": "v2026.0611.1025 更新內容:\n1. 程式架構解耦以利後續維護\n2. 修正解耦後 UI 字型大小跑版問題",
+  "release_notes": "v2026.0611.1035 更新內容:\n1. 修復啟動次數 (launch_count) 無法累加更新之問題",
   "required": false,
   "components": {
     "autodw": {
-      "version": "2026.0611.1025",
+      "version": "2026.0611.1035",
       "filename": "AutoLD.zip",
       "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0611/AutoLD.zip",
       "description": "主程式更新"
