@@ -1,11 +1,11 @@
 {
-  "latest_version": "2026.0611.1035",
+  "latest_version": "2026.0611.1320",
   "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0611/AutoLD.zip",
-  "release_notes": "v2026.0611.1035 更新內容:\n1. 修復啟動次數 (launch_count) 無法累加更新之問題",
+  "release_notes": "v2026.0611.1320 更新內容:\n1. Ragic 數據檢視器分頁簡化，僅保留裝置使用記錄\n2. 設定檔搬移至 %APPDATA%/AutoLD/config.ini 實現跨目錄共享並自動清理舊檔\n3. 還原大尾控制器每日初始化與全部保存之滾動及點擊座標邏輯",
   "required": false,
   "components": {
     "autodw": {
-      "version": "2026.0611.1035",
+      "version": "2026.0611.1320",
       "filename": "AutoLD.zip",
       "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0611/AutoLD.zip",
       "description": "主程式更新"
