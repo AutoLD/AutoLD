@@ -1,11 +1,11 @@
 {
-  "latest_version": "2026.0612.1911",
+  "latest_version": "2026.0612.2323",
   "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0612/AutoLD.zip",
-  "release_notes": "v2026.0612.1911 更新內容:\n遷移至 PySide6、全新 Apple 深色模式主題風格、大尾與模擬器狀態表格伸縮優化、精簡定時清理功能。\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0612/AutoLD.zip",
+  "release_notes": "v2026.0612.2323 更新內容:\n變更打包編譯工具：因 Nuitka 在部分環境有相容性與自動更新干擾，本次版本變更回穩定的 PyInstaller 打包方式，優化 Release 生成流程與執行相容性。\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0612/AutoLD.zip",
   "required": true,
   "components": {
     "autodw": {
-      "version": "2026.0612.1911",
+      "version": "2026.0612.2323",
       "filename": "AutoLD.zip",
       "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0612/AutoLD.zip",
       "description": "主程式更新"

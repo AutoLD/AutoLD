@@ -81,17 +81,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 5. Auto Version Detection or Info
     const versionText = document.getElementById('v-text');
-    if (versionText) {
-        fetch('version.json')
-            .then(res => res.json())
-            .then(data => {
-                if (data.latest_version) {
-                    versionText.textContent = ' v' + data.latest_version;
-                }
-            })
-            .catch(err => {
-                console.error('Failed to fetch version:', err);
-                versionText.textContent = ' v1.0.0';
-            });
-    }
+    const downloadLinks = document.querySelectorAll('.download-link');
+    fetch('version.json')
+        .then(res => res.json())
+        .then(data => {
+            if (data.latest_version && versionText) {
+                versionText.textContent = ' v' + data.latest_version;
+            }
+            if (data.download_url && downloadLinks.length > 0) {
+                downloadLinks.forEach(link => {
+                    link.href = data.download_url;
+                });
+            }
+        })
+        .catch(err => {
+            console.error('Failed to fetch version:', err);
+            if (versionText) versionText.textContent = ' v1.0.0';
+        });
 });
