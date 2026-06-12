@@ -1,13 +1,13 @@
 {
-  "latest_version": "2026.0611.1530",
-  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0611/AutoLD.zip",
-  "release_notes": "v2026.0611.1530 更新內容:\n使用 Nuitka 進行獨立打包，優化執行效能",
+  "latest_version": "2026.0612.1035",
+  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0612/AutoLD.zip",
+  "release_notes": "v2026.0612.1035 更新內容:\n1. 大尾監控提示優化：鎖定字型為 Segoe UI、大小為 20 且預設粗體，移除進階設定 UI，並將開關移入篩選條件區右側。\n2. 問題回報按鈕優化：移除按鈕文字中的 emoji 圖標，將 text 改為『問題回報』並恢復 x 座標為 -10，解決文字裁切切半問題。",
   "required": false,
   "components": {
     "autodw": {
-      "version": "2026.0611.1530",
+      "version": "2026.0612.1035",
       "filename": "AutoLD.zip",
-      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0611/AutoLD.zip",
+      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0612/AutoLD.zip",
       "description": "主程式更新"
     },
     "apk": {
