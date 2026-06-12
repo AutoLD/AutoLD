@@ -1,11 +1,11 @@
 {
-  "latest_version": "2026.0612.1100",
+  "latest_version": "2026.0612.1635",
   "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0612/AutoLD.zip",
-  "release_notes": "v2026.0612.1100 更新內容:\n1. 大尾監控設定持久化：自動刷新、刷新頻率、狀態異常、背包空間篩選等設定改為保存於 .ini 中，下次開啟程式時會自動載入。\n2. 大尾監控提示粗體：將異常浮動提示的 Segoe UI 20 級字體改為粗體。",
-  "required": false,
+  "release_notes": "v2026.0612.1635 更新內容:\n1. 支援 Nuitka 單一執行檔高相容自動更新。\n2. 修正 Nuitka 下路徑解析偏置問題。\n3. 修正大尾監控 NameError 錯誤。",
+  "required": true,
   "components": {
     "autodw": {
-      "version": "2026.0612.1100",
+      "version": "2026.0612.1635",
       "filename": "AutoLD.zip",
       "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0612/AutoLD.zip",
       "description": "主程式更新"
