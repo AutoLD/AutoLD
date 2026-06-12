@@ -1,11 +1,11 @@
 {
-  "latest_version": "2026.0612.1635",
+  "latest_version": "2026.0612.1638",
   "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0612/AutoLD.zip",
-  "release_notes": "v2026.0612.1635 更新內容:\n1. 支援 Nuitka 單一執行檔高相容自動更新。\n2. 修正 Nuitka 下路徑解析偏置問題。\n3. 修正大尾監控 NameError 錯誤。",
+  "release_notes": "v2026.0612.1638 更新內容:\n1. 修復 Nuitka 自動更新問題，解決 Launcher 行程樹被終止及環境變數相容性問題。\n2. 修正大尾監控 NameError 錯誤。\n3. 優化更新完成後的清理流程。",
   "required": true,
   "components": {
     "autodw": {
-      "version": "2026.0612.1635",
+      "version": "2026.0612.1638",
       "filename": "AutoLD.zip",
       "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0612/AutoLD.zip",
       "description": "主程式更新"
