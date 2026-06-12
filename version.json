@@ -1,11 +1,11 @@
 {
-  "latest_version": "2026.0612.2323",
+  "latest_version": "2026.0612.2345",
   "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0612/AutoLD.zip",
-  "release_notes": "v2026.0612.2323 更新內容:\n變更打包編譯工具：因 Nuitka 在部分環境有相容性與自動更新干擾，本次版本變更回穩定的 PyInstaller 打包方式，優化 Release 生成流程與執行相容性。\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0612/AutoLD.zip",
+  "release_notes": "v2026.0612.2345 更新內容:\n修正 Win10 相容性：降級 PySide6 版本至 6.6.3 並調整打包參數以完整收集 Qt 平台插件。\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0612/AutoLD.zip",
   "required": true,
   "components": {
     "autodw": {
-      "version": "2026.0612.2323",
+      "version": "2026.0612.2345",
       "filename": "AutoLD.zip",
       "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0612/AutoLD.zip",
       "description": "主程式更新"
