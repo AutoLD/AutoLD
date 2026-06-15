@@ -1,13 +1,13 @@
 {
-  "latest_version": "2026.0612.2345",
-  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0612/AutoLD.zip",
-  "release_notes": "v2026.0612.2345 更新內容:\n修正 Win10 相容性：降級 PySide6 版本至 6.6.3 並調整打包參數以完整收集 Qt 平台插件。\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0612/AutoLD.zip",
+  "latest_version": "2026.0615.1615",
+  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0615/AutoLD.zip",
+  "release_notes": "v2026.0615.1615 更新內容:\n修復大尾懸浮提示視窗縮小消失問題\n優化資源消耗，增加 2 秒快取機制\n規範編譯打包標準於 RULES.md\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0615/AutoLD.zip",
   "required": true,
   "components": {
     "autodw": {
-      "version": "2026.0612.2345",
+      "version": "2026.0615.1615",
       "filename": "AutoLD.zip",
-      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0612/AutoLD.zip",
+      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0615/AutoLD.zip",
       "description": "主程式更新"
     },
     "apk": {
