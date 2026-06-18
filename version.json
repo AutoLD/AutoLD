@@ -1,11 +1,11 @@
 {
-  "latest_version": "2026.0618.1127",
+  "latest_version": "2026.0618.1636",
   "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0618/AutoLD.zip",
-  "release_notes": "v2026.0618.1127 更新內容:\n換角編輯器優化：移除新增角色彈窗改為手動輸入並自動同步，微調表格按鈕尺寸更精緻。\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0618/AutoLD.zip",
+  "release_notes": "v2026.0618.1636 更新內容:\n1. 大尾批量新增掛機地圖新增指定插入位置（最上/最下）。2. 修復批量操作彈出進度視窗未定義函數與變數引用Bug，支援關閉彈窗自動中斷。\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0618/AutoLD.zip",
   "required": true,
   "components": {
     "autodw": {
-      "version": "2026.0618.1127",
+      "version": "2026.0618.1636",
       "filename": "AutoLD.zip",
       "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0618/AutoLD.zip",
       "description": "主程式更新"
