@@ -1,13 +1,13 @@
 {
-  "latest_version": "2026.0615.1615",
-  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0615/AutoLD.zip",
-  "release_notes": "v2026.0615.1615 更新內容:\n修復大尾懸浮提示視窗縮小消失問題\n優化資源消耗，增加 2 秒快取機制\n規範編譯打包標準於 RULES.md\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0615/AutoLD.zip",
+  "latest_version": "2026.0618.1127",
+  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0618/AutoLD.zip",
+  "release_notes": "v2026.0618.1127 更新內容:\n換角編輯器優化：移除新增角色彈窗改為手動輸入並自動同步，微調表格按鈕尺寸更精緻。\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0618/AutoLD.zip",
   "required": true,
   "components": {
     "autodw": {
-      "version": "2026.0615.1615",
+      "version": "2026.0618.1127",
       "filename": "AutoLD.zip",
-      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0615/AutoLD.zip",
+      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0618/AutoLD.zip",
       "description": "主程式更新"
     },
     "apk": {
