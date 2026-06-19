@@ -1,13 +1,13 @@
 {
-  "latest_version": "2026.0618.1636",
-  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0618/AutoLD.zip",
-  "release_notes": "v2026.0618.1636 更新內容:\n1. 大尾批量新增掛機地圖新增指定插入位置（最上/最下）。2. 修復批量操作彈出進度視窗未定義函數與變數引用Bug，支援關閉彈窗自動中斷。\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0618/AutoLD.zip",
+  "latest_version": "2026.0619.1547",
+  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0619/AutoLD.zip",
+  "release_notes": "v2026.0619.1547 更新內容:\n修復大尾視窗與 ListView 匹配誤判問題：模糊尋找大尾視窗時新增進程名稱比對條件（預設為 autoui.exe），避免使用者開啟含有大尾名稱的資料夾或網頁分頁時發生 ListView 找不到的錯誤。\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0619/AutoLD.zip",
   "required": true,
   "components": {
     "autodw": {
-      "version": "2026.0618.1636",
+      "version": "2026.0619.1547",
       "filename": "AutoLD.zip",
-      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0618/AutoLD.zip",
+      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0619/AutoLD.zip",
       "description": "主程式更新"
     },
     "apk": {
