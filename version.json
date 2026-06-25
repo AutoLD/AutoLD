@@ -1,13 +1,13 @@
 {
-  "latest_version": "2026.0619.1547",
-  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0619/AutoLD.zip",
-  "release_notes": "v2026.0619.1547 更新內容:\n修復大尾視窗與 ListView 匹配誤判問題：模糊尋找大尾視窗時新增進程名稱比對條件（預設為 autoui.exe），避免使用者開啟含有大尾名稱的資料夾或網頁分頁時發生 ListView 找不到的錯誤。\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0619/AutoLD.zip",
+  "latest_version": "2026.0625.1330",
+  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0625/AutoLD.zip",
+  "release_notes": "v2026.0625.1330 更新內容:\n1. 大尾批量物品編輯清單加入列刪除按鈕\n2. 重構大尾批量最大同步流程，改為 MaxSyncDialog 對話框並支援表格列刪除\n3. 解決 QComboBox 自訂 QSS 樣式文字裁切截斷問題\n4. 新增二進位設定檔寫入安全邊界與防溢位檢查\n5. 修改編輯視窗匯出行為為僅匯出當前分頁資料\n6. 調整大尾批量表格寬高伸縮，防止高 DPI 元件裁切\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0625/AutoLD.zip",
   "required": true,
   "components": {
     "autodw": {
-      "version": "2026.0619.1547",
+      "version": "2026.0625.1330",
       "filename": "AutoLD.zip",
-      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0619/AutoLD.zip",
+      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0625/AutoLD.zip",
       "description": "主程式更新"
     },
     "apk": {
