@@ -1,13 +1,13 @@
 {
-  "latest_version": "2026.0702.1315",
-  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0702/AutoLD.zip",
-  "release_notes": "v2026.0702.1315 更新內容:\n1. 修復大尾新版交易所數量解析 Bug\n2. 大尾監控新增開啟、掛機與優雅關閉控制按鈕\n3. 系統設定新增立即關機按鈕\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0702/AutoLD.zip",
+  "latest_version": "2026.0703.1238",
+  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0703/AutoLD.zip",
+  "release_notes": "v2026.0703.1238 更新內容:\n新增 CSV 匯入與匯出功能並支援欄位檢驗，停用多餘的大尾備份邏輯\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0703/AutoLD.zip",
   "required": true,
   "components": {
     "autodw": {
-      "version": "2026.0702.1315",
+      "version": "2026.0703.1238",
       "filename": "AutoLD.zip",
-      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0702/AutoLD.zip",
+      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0703/AutoLD.zip",
       "description": "主程式更新"
     },
     "apk": {
