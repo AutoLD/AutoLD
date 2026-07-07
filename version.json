@@ -1,11 +1,11 @@
 {
-  "latest_version": "2026.0707.1945",
+  "latest_version": "2026.0707.2320",
   "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0707/AutoLD.zip",
-  "release_notes": "v2026.0707.1945 更新內容:\n新增模擬器設定具名備份與還原功能\n還原時下拉選單選取並新增二次確認\n按鈕移至第一排主要控制列精簡版面\n定時一小時自動備份檢測避免頻繁刷新\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0707/AutoLD.zip",
+  "release_notes": "v2026.0707.2320 更新內容:\n新增大尾快速切換角色與自訂時間編輯\n支援空排程模擬器與動態數字索引掃描\nRagic 數據檢視器新增 CSV 匯出\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0707/AutoLD.zip",
   "required": true,
   "components": {
     "autodw": {
-      "version": "2026.0707.1945",
+      "version": "2026.0707.2320",
       "filename": "AutoLD.zip",
       "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0707/AutoLD.zip",
       "description": "主程式更新"
