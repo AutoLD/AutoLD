@@ -1,13 +1,13 @@
 {
-  "latest_version": "2026.0710.0050",
-  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0710/AutoLD.zip",
-  "release_notes": "v2026.0710.0050 更新內容:\n天堂M分頁新增回主畫面、開啟支配石介面、領取卡片(不交換)與刪除信件功能\n優化開啟背包動作流程\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0710/AutoLD.zip",
+  "latest_version": "2026.0712.2156",
+  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0712/AutoLD.zip",
+  "release_notes": "v2026.0712.2156 更新內容:\n新增歐林痕跡持續影像監控比對功能；新增天堂M自動回到亞丁村莊任務；優化自我更新失敗自動回復機制與背景任務，提高更新安全性與效能。\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0712/AutoLD.zip",
   "required": true,
   "components": {
     "autodw": {
-      "version": "2026.0710.0050",
+      "version": "2026.0712.2156",
       "filename": "AutoLD.zip",
-      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0710/AutoLD.zip",
+      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0712/AutoLD.zip",
       "description": "主程式更新"
     },
     "apk": {
