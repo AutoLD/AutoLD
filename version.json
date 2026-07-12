@@ -1,11 +1,11 @@
 {
-  "latest_version": "2026.0712.2156",
+  "latest_version": "2026.0712.2300",
   "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0712/AutoLD.zip",
-  "release_notes": "v2026.0712.2156 更新內容:\n新增歐林痕跡持續影像監控比對功能；新增天堂M自動回到亞丁村莊任務；優化自我更新失敗自動回復機制與背景任務，提高更新安全性與效能。\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0712/AutoLD.zip",
+  "release_notes": "v2026.0712.2300 更新內容:\n微調歐林痕跡開啟介面點擊延遲時間以提高多開同步點擊穩定性。\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0712/AutoLD.zip",
   "required": true,
   "components": {
     "autodw": {
-      "version": "2026.0712.2156",
+      "version": "2026.0712.2300",
       "filename": "AutoLD.zip",
       "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0712/AutoLD.zip",
       "description": "主程式更新"
