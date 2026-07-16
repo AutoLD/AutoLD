@@ -1,11 +1,11 @@
 {
-  "latest_version": "2026.0716.1400",
+  "latest_version": "2026.0716.1428",
   "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0716/AutoLD.zip",
-  "release_notes": "v2026.0716.1400 更新內容:\n以 Nuitka 編譯發佈新版本\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0716/AutoLD.zip",
+  "release_notes": "v2026.0716.1428 更新內容:\n修復與優化自動更新功能，解決 Nuitka/PyInstaller 檔名不一致及自訂檔名導致自動更新失敗的問題；並修改 build.ps1 預設以 Nuitka 進行打包發佈。\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0716/AutoLD.zip",
   "required": true,
   "components": {
     "autodw": {
-      "version": "2026.0716.1400",
+      "version": "2026.0716.1428",
       "filename": "AutoLD.zip",
       "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0716/AutoLD.zip",
       "description": "主程式更新"
