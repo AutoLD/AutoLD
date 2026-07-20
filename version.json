@@ -1,11 +1,11 @@
 {
-  "latest_version": "2026.0720.1300",
+  "latest_version": "2026.0720.1450",
   "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0720/AutoLD.zip",
-  "release_notes": "v2026.0720.1300 更新內容:\n新增獨立更新程式 updater.exe，重構自動更新脫離主程式機制，解決 Windows 檔案鎖定與 schtasks 字元上限問題。\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0720/AutoLD.zip",
+  "release_notes": "v2026.0720.1450 更新內容:\n更新失敗時自動開啟 HTML 說明頁面且不重啟程式，更新成功維持開啟 .exe 主程式\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0720/AutoLD.zip",
   "required": true,
   "components": {
     "autodw": {
-      "version": "2026.0720.1300",
+      "version": "2026.0720.1450",
       "filename": "AutoLD.zip",
       "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0720/AutoLD.zip",
       "description": "主程式更新"
