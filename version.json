@@ -1,11 +1,11 @@
 {
-  "latest_version": "2026.0720.1450",
+  "latest_version": "2026.0720.1511",
   "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0720/AutoLD.zip",
-  "release_notes": "v2026.0720.1450 更新內容:\n更新失敗時自動開啟 HTML 說明頁面且不重啟程式，更新成功維持開啟 .exe 主程式\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0720/AutoLD.zip",
+  "release_notes": "v2026.0720.1511 更新內容:\n修復獨立更新程式 updater.exe 複製自身時發生的 WinError 32 檔案鎖定 Bug，確保自動更新順暢完成\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0720/AutoLD.zip",
   "required": true,
   "components": {
     "autodw": {
-      "version": "2026.0720.1450",
+      "version": "2026.0720.1511",
       "filename": "AutoLD.zip",
       "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0720/AutoLD.zip",
       "description": "主程式更新"
