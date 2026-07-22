@@ -1,13 +1,13 @@
 {
-  "latest_version": "2026.0720.1511",
-  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0720/AutoLD.zip",
-  "release_notes": "v2026.0720.1511 更新內容:\n修復獨立更新程式 updater.exe 複製自身時發生的 WinError 32 檔案鎖定 Bug，確保自動更新順暢完成\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0720/AutoLD.zip",
+  "latest_version": "2026.0722.0944",
+  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0722/AutoLD.zip",
+  "release_notes": "v2026.0722.0944 更新內容:\n1. 新增單台與批次模擬器 Profile 備份與還原功能。\n2. 新增模擬器快速設定工具，可一鍵將 CPU/RAM/解析度/Root 等預設參數整批套用至指定模擬器。\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0722/AutoLD.zip",
   "required": true,
   "components": {
     "autodw": {
-      "version": "2026.0720.1511",
+      "version": "2026.0722.0944",
       "filename": "AutoLD.zip",
-      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0720/AutoLD.zip",
+      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0722/AutoLD.zip",
       "description": "主程式更新"
     },
     "apk": {
