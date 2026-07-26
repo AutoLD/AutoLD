@@ -1,13 +1,13 @@
 {
-  "latest_version": "2026.0722.0944",
-  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0722/AutoLD.zip",
-  "release_notes": "v2026.0722.0944 更新內容:\n1. 新增單台與批次模擬器 Profile 備份與還原功能。\n2. 新增模擬器快速設定工具，可一鍵將 CPU/RAM/解析度/Root 等預設參數整批套用至指定模擬器。\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0722/AutoLD.zip",
+  "latest_version": "2026.0726.1807",
+  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0726/AutoLD.zip",
+  "release_notes": "v2026.0726.1807 更新內容:\n1. is_android_ready 改為透過 Pure ADB 讀取 getprop sys.boot_completed 判斷開機狀態，解決部分雷電模擬器版本 list2 狀態欄位失準問題。\n2. PureAdbClient.shell 新增 log_errors 可選參數，避免輪詢檢查期間產生錯誤 Log 洗版。\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0726/AutoLD.zip",
   "required": true,
   "components": {
     "autodw": {
-      "version": "2026.0722.0944",
+      "version": "2026.0726.1807",
       "filename": "AutoLD.zip",
-      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0722/AutoLD.zip",
+      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0726/AutoLD.zip",
       "description": "主程式更新"
     },
     "apk": {
