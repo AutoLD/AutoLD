@@ -1,13 +1,13 @@
 {
-  "latest_version": "2026.0726.1807",
-  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0726/AutoLD.zip",
-  "release_notes": "v2026.0726.1807 更新內容:\n1. is_android_ready 改為透過 Pure ADB 讀取 getprop sys.boot_completed 判斷開機狀態，解決部分雷電模擬器版本 list2 狀態欄位失準問題。\n2. PureAdbClient.shell 新增 log_errors 可選參數，避免輪詢檢查期間產生錯誤 Log 洗版。\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0726/AutoLD.zip",
+  "latest_version": "2026.0727.2312",
+  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0727/AutoLD.zip",
+  "release_notes": "v2026.0727.2312 更新內容:\n新增「開機自動刪除暫存檔」功能：可於系統設定頁勾選並指定資料夾，開機時自動刪除整個暫存資料夾（預設 Documents\\XuanZhi9\\Misc），並內建系統資料夾安全防護。\n新增「備份ADID」功能：模擬器控制頁可批次讀取執行中模擬器的 Google 廣告 ID 並輸出至 ADID 資料夾。\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0727/AutoLD.zip",
   "required": true,
   "components": {
     "autodw": {
-      "version": "2026.0726.1807",
+      "version": "2026.0727.2312",
       "filename": "AutoLD.zip",
-      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0726/AutoLD.zip",
+      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0727/AutoLD.zip",
       "description": "主程式更新"
     },
     "apk": {
