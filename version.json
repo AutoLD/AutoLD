@@ -1,13 +1,13 @@
 {
-  "latest_version": "2026.0727.2312",
-  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0727/AutoLD.zip",
-  "release_notes": "v2026.0727.2312 更新內容:\n新增「開機自動刪除暫存檔」功能：可於系統設定頁勾選並指定資料夾，開機時自動刪除整個暫存資料夾（預設 Documents\\XuanZhi9\\Misc），並內建系統資料夾安全防護。\n新增「備份ADID」功能：模擬器控制頁可批次讀取執行中模擬器的 Google 廣告 ID 並輸出至 ADID 資料夾。\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0727/AutoLD.zip",
+  "latest_version": "2026.0730.1137",
+  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0730/AutoLD.zip",
+  "release_notes": "v2026.0730.1137 更新內容:\n新增「雷電廣告視窗自動關閉」功能：背景自動偵測並關閉雷電模擬器彈出的廣告視窗，可於系統設定頁開關並調整掃描間隔。\n新增「大尾掛機排程」功能：可依星期與時間自動開啟指定編號掛機，其餘編號自動關閉並結束對應模擬器。\n修復雷電路徑失效（例如移機後舊路徑殘留）會導致整個程式無法執行的問題，現在會自動偵測正確路徑，模擬器功能不可用時其餘功能仍正常運作。\n優化模擬器列表刷新：對外IP查詢改為手動觸發並限制同時查詢數量，避免刷新列表時干擾掛機運作。\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0730/AutoLD.zip",
   "required": true,
   "components": {
     "autodw": {
-      "version": "2026.0727.2312",
+      "version": "2026.0730.1137",
       "filename": "AutoLD.zip",
-      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0727/AutoLD.zip",
+      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0730/AutoLD.zip",
       "description": "主程式更新"
     },
     "apk": {
