@@ -1,13 +1,13 @@
 {
-  "latest_version": "2026.0730.1137",
-  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0730/AutoLD.zip",
-  "release_notes": "v2026.0730.1137 更新內容:\n新增「雷電廣告視窗自動關閉」功能：背景自動偵測並關閉雷電模擬器彈出的廣告視窗，可於系統設定頁開關並調整掃描間隔。\n新增「大尾掛機排程」功能：可依星期與時間自動開啟指定編號掛機，其餘編號自動關閉並結束對應模擬器。\n修復雷電路徑失效（例如移機後舊路徑殘留）會導致整個程式無法執行的問題，現在會自動偵測正確路徑，模擬器功能不可用時其餘功能仍正常運作。\n優化模擬器列表刷新：對外IP查詢改為手動觸發並限制同時查詢數量，避免刷新列表時干擾掛機運作。\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0730/AutoLD.zip",
+  "latest_version": "2026.0731.0305",
+  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0731/AutoLD.zip",
+  "release_notes": "v2026.0731.0305 更新內容:\n新增「大尾掛機排程」checkbox 介面：星期改成可複選 checkbox（支援每天快速全選）、編號改成 checkbox 網格（全選/全不選/反選）。\n開機自動刪除暫存檔新增防呆：大尾執行中會跳過刪除，並確保清除完成後才會自動開啟大尾，避免競爭風險。\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0731/AutoLD.zip",
   "required": true,
   "components": {
     "autodw": {
-      "version": "2026.0730.1137",
+      "version": "2026.0731.0305",
       "filename": "AutoLD.zip",
-      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0730/AutoLD.zip",
+      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0731/AutoLD.zip",
       "description": "主程式更新"
     },
     "apk": {
