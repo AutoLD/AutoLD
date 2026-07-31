@@ -1,11 +1,11 @@
 {
-  "latest_version": "2026.0731.0305",
+  "latest_version": "2026.0731.2319",
   "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0731/AutoLD.zip",
-  "release_notes": "v2026.0731.0305 更新內容:\n新增「大尾掛機排程」checkbox 介面：星期改成可複選 checkbox（支援每天快速全選）、編號改成 checkbox 網格（全選/全不選/反選）。\n開機自動刪除暫存檔新增防呆：大尾執行中會跳過刪除，並確保清除完成後才會自動開啟大尾，避免競爭風險。\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0731/AutoLD.zip",
+  "release_notes": "v2026.0731.2319 更新內容:\n新增大尾卡住自動關閉監控：大尾Pro帳號啟用中，經驗/小時、金幣/小時、葉子連續超過設定分鐘數（預設5分鐘）無變化時，自動關閉對應模擬器並清除所有 ADB.EXE 程序。大尾監控分頁新增「卡住自動關閉」開關與門檻分鐘數設定，即時生效並存檔。\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0731/AutoLD.zip",
   "required": true,
   "components": {
     "autodw": {
-      "version": "2026.0731.0305",
+      "version": "2026.0731.2319",
       "filename": "AutoLD.zip",
       "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0731/AutoLD.zip",
       "description": "主程式更新"
