@@ -1,13 +1,13 @@
 {
-  "latest_version": "2026.0731.2319",
-  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0731/AutoLD.zip",
-  "release_notes": "v2026.0731.2319 更新內容:\n新增大尾卡住自動關閉監控：大尾Pro帳號啟用中，經驗/小時、金幣/小時、葉子連續超過設定分鐘數（預設5分鐘）無變化時，自動關閉對應模擬器並清除所有 ADB.EXE 程序。大尾監控分頁新增「卡住自動關閉」開關與門檻分鐘數設定，即時生效並存檔。\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0731/AutoLD.zip",
+  "latest_version": "2026.0801.2036",
+  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0801/AutoLD.zip",
+  "release_notes": "v2026.0801.2036 更新內容:\n大尾卡住監控邏輯精進：只在經驗/金幣/葉子數值不變時才截圖比對，卡住時只關閉對應模擬器的 adb.exe（不再整批關閉），新增 ADB 程序執行時間監控（依 PID/port 精準判斷，避免誤殺）。歐林日記新增 Debug 截圖預覽視窗。修正 Windows 高 DPI 縮放造成介面擠壓錯位的問題。\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0801/AutoLD.zip",
   "required": true,
   "components": {
     "autodw": {
-      "version": "2026.0731.2319",
+      "version": "2026.0801.2036",
       "filename": "AutoLD.zip",
-      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0731/AutoLD.zip",
+      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0801/AutoLD.zip",
       "description": "主程式更新"
     },
     "apk": {
