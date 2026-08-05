@@ -1,13 +1,13 @@
 {
-  "latest_version": "2026.0803.0715",
-  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0803/AutoLD.zip",
-  "release_notes": "v2026.0803.0715 更新內容:\n大尾卡住監控三種情境分開處理：已啟動但卡住／帳號啟用但未啟動／模擬器執行中但ADB卡住，各自獨立計時，都改用精準的 adb disconnect 只中斷單一模擬器連線，不影響其他正常運作的模擬器。\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0803/AutoLD.zip",
+  "latest_version": "2026.0805.1105",
+  "download_url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0805/AutoLD.zip",
+  "release_notes": "v2026.0805.1105 更新內容:\n1. 大尾批量新增「冰宮的房間」批次開啟與關閉按鈕\n2. 大尾監控新增「自動點擊更新」功能與版面優化\n\n如自動更新失敗，請手動下載最新版本：\nhttps://github.com/AutoLD/AutoLD/releases/download/v2026.0805/AutoLD.zip",
   "required": true,
   "components": {
     "autodw": {
-      "version": "2026.0803.0715",
+      "version": "2026.0805.1105",
       "filename": "AutoLD.zip",
-      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0803/AutoLD.zip",
+      "url": "https://github.com/AutoLD/AutoLD/releases/download/v2026.0805/AutoLD.zip",
       "description": "主程式更新"
     },
     "apk": {
